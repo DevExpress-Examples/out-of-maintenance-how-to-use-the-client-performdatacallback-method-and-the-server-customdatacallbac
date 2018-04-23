@@ -1,0 +1,204 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.50727</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{0909B04F-7D0C-4F64-938A-E0AC81A97230}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>HtmlEditorSaveHtml</RootNamespace>
+    <AssemblyName>HtmlEditorSaveHtml</AssemblyName>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="DevExpress.Data.v9.2, Version=9.2.0.0, Culture=neutral, PublicKeyToken=79868b8147b5eae4, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\DevExpress.Data.v9.2.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.Web.ASPxEditors.v9.2, Version=9.2.0.0, Culture=neutral, PublicKeyToken=79868b8147b5eae4, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Web.ASPxHtmlEditor.v9.2, Version=9.2.0.0, Culture=neutral, PublicKeyToken=79868b8147b5eae4, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Web.ASPxSpellChecker.v9.2, Version=9.2.0.0, Culture=neutral, PublicKeyToken=79868b8147b5eae4, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Web.v9.2, Version=9.2.0.0, Culture=neutral, PublicKeyToken=79868b8147b5eae4, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraSpellChecker.v9.2.Core, Version=9.2.0.0, Culture=neutral, PublicKeyToken=79868b8147b5eae4, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\DevExpress.XtraSpellChecker.v9.2.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="System.Web.Mobile" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Web.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="DevExpress\ASPxHtmlEditorForms\InsertImageForm.ascx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="DevExpress\ASPxHtmlEditorForms\InsertImageForm.ascx.cs">
+      <DependentUpon>InsertImageForm.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="DevExpress\ASPxHtmlEditorForms\InsertImageForm.ascx.designer.cs">
+      <DependentUpon>InsertImageForm.ascx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="DevExpress\ASPxHtmlEditorForms\InsertLinkForm.ascx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="DevExpress\ASPxHtmlEditorForms\InsertLinkForm.ascx.cs">
+      <DependentUpon>InsertLinkForm.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="DevExpress\ASPxHtmlEditorForms\InsertLinkForm.ascx.designer.cs">
+      <DependentUpon>InsertLinkForm.ascx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="DevExpress\ASPxHtmlEditorForms\ImagePropertiesForm.ascx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="DevExpress\ASPxHtmlEditorForms\ImagePropertiesForm.ascx.cs">
+      <DependentUpon>ImagePropertiesForm.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="DevExpress\ASPxHtmlEditorForms\ImagePropertiesForm.ascx.designer.cs">
+      <DependentUpon>ImagePropertiesForm.ascx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="DevExpress\ASPxHtmlEditorForms\PasteFromWordForm.ascx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="DevExpress\ASPxHtmlEditorForms\PasteFromWordForm.ascx.cs">
+      <DependentUpon>PasteFromWordForm.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="DevExpress\ASPxHtmlEditorForms\PasteFromWordForm.ascx.designer.cs">
+      <DependentUpon>PasteFromWordForm.ascx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="DevExpress\ASPxHtmlEditorForms\InsertTableForm.ascx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="DevExpress\ASPxHtmlEditorForms\InsertTableForm.ascx.cs">
+      <DependentUpon>InsertTableForm.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="DevExpress\ASPxHtmlEditorForms\InsertTableForm.ascx.designer.cs">
+      <DependentUpon>InsertTableForm.ascx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="DevExpress\ASPxHtmlEditorForms\TableColumnPropertiesForm.ascx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="DevExpress\ASPxHtmlEditorForms\TableColumnPropertiesForm.ascx.cs">
+      <DependentUpon>TableColumnPropertiesForm.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="DevExpress\ASPxHtmlEditorForms\TableColumnPropertiesForm.ascx.designer.cs">
+      <DependentUpon>TableColumnPropertiesForm.ascx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="DevExpress\ASPxSpellCheckerForms\SpellCheckForm.ascx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="DevExpress\ASPxSpellCheckerForms\SpellCheckForm.ascx.cs">
+      <DependentUpon>SpellCheckForm.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="DevExpress\ASPxSpellCheckerForms\SpellCheckForm.ascx.designer.cs">
+      <DependentUpon>SpellCheckForm.ascx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Default.aspx" />
+    <Content Include="DevExpress\ASPxSpellCheckerForms\SpellCheckOptionsForm.ascx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="DevExpress\ASPxSpellCheckerForms\SpellCheckOptionsForm.ascx.cs">
+      <DependentUpon>SpellCheckOptionsForm.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Default.aspx.cs">
+      <SubType>ASPXCodeBehind</SubType>
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="DevExpress\ASPxSpellCheckerForms\SpellCheckOptionsForm.ascx.designer.cs">
+      <DependentUpon>SpellCheckOptionsForm.ascx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(MSBuildExtensionsPath)\Microsoft\VisualStudio\v8.0\WebApplications\Microsoft.WebApplication.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>False</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>54798</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl></IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+</Project>
