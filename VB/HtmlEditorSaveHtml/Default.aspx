@@ -1,8 +1,8 @@
 <%@ Page Language="vb" AutoEventWireup="true" CodeBehind="Default.aspx.vb" Inherits="HtmlEditorSaveHtml.Default" %>
-<%@ Register Assembly="DevExpress.Web.v9.2" Namespace="DevExpress.Web.ASPxLoadingPanel" TagPrefix="dxlp" %>
-<%@ Register Assembly="DevExpress.Web.ASPxEditors.v9.2" Namespace="DevExpress.Web.ASPxEditors" TagPrefix="dxe" %>
-<%@ Register Assembly="DevExpress.Web.ASPxSpellChecker.v9.2" Namespace="DevExpress.Web.ASPxSpellChecker" TagPrefix="dxwsc" %>
-<%@ Register Assembly="DevExpress.Web.ASPxHtmlEditor.v9.2" Namespace="DevExpress.Web.ASPxHtmlEditor" TagPrefix="dxhe" %>
+<%@ Register Assembly="DevExpress.Web.v13.1" Namespace="DevExpress.Web.ASPxLoadingPanel" TagPrefix="dxlp" %>
+<%@ Register Assembly="DevExpress.Web.v13.1" Namespace="DevExpress.Web.ASPxEditors" TagPrefix="dxe" %>
+<%@ Register Assembly="DevExpress.Web.ASPxSpellChecker.v13.1" Namespace="DevExpress.Web.ASPxSpellChecker" TagPrefix="dxwsc" %>
+<%@ Register Assembly="DevExpress.Web.ASPxHtmlEditor.v13.1" Namespace="DevExpress.Web.ASPxHtmlEditor" TagPrefix="dxhe" %>
 
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
@@ -52,7 +52,7 @@ function SaveCompleted(){
 					</ValidationSettings>
 				</SettingsImageUpload>
 				<Toolbars>
-					<dxhe:StandardToolbar1>
+					<dxhe:HtmlEditorToolbar>
 						<Items>
 							<dxhe:ToolbarCutButton>
 							</dxhe:ToolbarCutButton>
@@ -87,8 +87,8 @@ function SaveCompleted(){
 							<dxhe:ToolbarInsertImageDialogButton>
 							</dxhe:ToolbarInsertImageDialogButton>
 						</Items>
-					</dxhe:StandardToolbar1>
-					<dxhe:StandardToolbar2>
+					</dxhe:HtmlEditorToolbar>
+					<dxhe:HtmlEditorToolbar>
 						<Items>
 							<dxhe:ToolbarBoldButton BeginGroup="True">
 							</dxhe:ToolbarBoldButton>
@@ -111,15 +111,15 @@ function SaveCompleted(){
 							<dxhe:ToolbarFontColorButton>
 							</dxhe:ToolbarFontColorButton>
 						</Items>
-					</dxhe:StandardToolbar2>
-					<dxhe:CustomToolbar>
+					</dxhe:HtmlEditorToolbar>
+					<dxhe:HtmlEditorToolbar>
 						<Items>
 							<dxhe:CustomToolbarButton CommandName="load" Text="Load" ToolTip="Loading saved text" BeginGroup="true">
 							</dxhe:CustomToolbarButton>
 							<dxhe:CustomToolbarButton CommandName="save" Text="Save" ToolTip="Save text" >
 							</dxhe:CustomToolbarButton>
 						</Items>
-					</dxhe:CustomToolbar>
+					</dxhe:HtmlEditorToolbar>
 				</Toolbars>
 				<ClientSideEvents CustomCommand="OnCustomCommand"></ClientSideEvents>
 			</dxhe:ASPxHtmlEditor>
