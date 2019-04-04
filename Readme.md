@@ -2,7 +2,7 @@
 *Files to look at*:
 
 * [Default.aspx](./CS/HtmlEditorSaveHtml/Default.aspx) (VB: [Default.aspx](./VB/HtmlEditorSaveHtml/Default.aspx))
-* [Default.aspx.cs](./CS/HtmlEditorSaveHtml/Default.aspx.cs) (VB: [Default.aspx](./VB/HtmlEditorSaveHtml/Default.aspx))
+* [Default.aspx.cs](./CS/HtmlEditorSaveHtml/Default.aspx.cs) (VB: [Default.aspx.vb](./VB/HtmlEditorSaveHtml/Default.aspx.vb))
 <!-- default file list end -->
 # How to use the client PerformDataCallback method and the server CustomDataCallback event
 
