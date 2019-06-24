@@ -5,6 +5,9 @@
 * [Default.aspx.cs](./CS/HtmlEditorSaveHtml/Default.aspx.cs) (VB: [Default.aspx.vb](./VB/HtmlEditorSaveHtml/Default.aspx.vb))
 <!-- default file list end -->
 # How to use the client PerformDataCallback method and the server CustomDataCallback event
+<!-- run online -->
+**[[Run Online]](https://codecentral.devexpress.com/e1397/)**
+<!-- run online end -->
 
 
 <p>This example demonstrates how the CustomDataCallback event can be used to save the ASPxHtmlEditor's content data on the server side without generating a postback and refreshing the entire page. The server CustomDataCallback event is initiated by a callback sent by the editor's client PerformDataCallback method. Saved data is maintained within the Session object and can be restored back to the editor, if required.<br />
