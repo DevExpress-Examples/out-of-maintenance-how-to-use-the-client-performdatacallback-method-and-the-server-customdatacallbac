@@ -1,8 +1,8 @@
 <%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Default.aspx.cs" Inherits="HtmlEditorSaveHtml.Default" %>
-<%@ Register Assembly="DevExpress.Web.v14.1" Namespace="DevExpress.Web.ASPxLoadingPanel" TagPrefix="dxlp" %>
-<%@ Register Assembly="DevExpress.Web.v14.1" Namespace="DevExpress.Web.ASPxEditors" TagPrefix="dxe" %>
-<%@ Register Assembly="DevExpress.Web.ASPxSpellChecker.v14.1" Namespace="DevExpress.Web.ASPxSpellChecker" TagPrefix="dxwsc" %>
-<%@ Register Assembly="DevExpress.Web.ASPxHtmlEditor.v14.1" Namespace="DevExpress.Web.ASPxHtmlEditor" TagPrefix="dxhe" %>
+<%@ Register Assembly="DevExpress.Web.v13.1" Namespace="DevExpress.Web.ASPxLoadingPanel" TagPrefix="dxlp" %>
+<%@ Register Assembly="DevExpress.Web.v13.1" Namespace="DevExpress.Web.ASPxEditors" TagPrefix="dxe" %>
+<%@ Register Assembly="DevExpress.Web.ASPxSpellChecker.v13.1" Namespace="DevExpress.Web.ASPxSpellChecker" TagPrefix="dxwsc" %>
+<%@ Register Assembly="DevExpress.Web.ASPxHtmlEditor.v13.1" Namespace="DevExpress.Web.ASPxHtmlEditor" TagPrefix="dxhe" %>
 
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
