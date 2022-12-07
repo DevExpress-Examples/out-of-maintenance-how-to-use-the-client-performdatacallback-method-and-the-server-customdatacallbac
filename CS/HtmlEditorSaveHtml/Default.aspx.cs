@@ -15,7 +15,7 @@ namespace HtmlEditorSaveHtml {
 
         }
 
-        protected void ASPxHtmlEditor1_CustomDataCallback(object sender, DevExpress.Web.ASPxClasses.CustomDataCallbackEventArgs e) {
+        protected void ASPxHtmlEditor1_CustomDataCallback(object sender, DevExpress.Web.CustomDataCallbackEventArgs e) {
             switch(e.Parameter) {
                 case "save":
                     SetHtml();

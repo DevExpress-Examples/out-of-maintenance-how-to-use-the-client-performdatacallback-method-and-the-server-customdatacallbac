@@ -47,7 +47,7 @@ Namespace HtmlEditorSaveHtml
 		''' Auto-generated field.
 		''' To modify move field declaration from designer file to code-behind file.
 		''' </remarks>
-		Protected ASPxLabel1 As Global.DevExpress.Web.ASPxEditors.ASPxLabel
+		Protected ASPxLabel1 As Global.DevExpress.Web.ASPxLabel
 
 		''' <summary>
 		''' ASPxHtmlEditor1 control.

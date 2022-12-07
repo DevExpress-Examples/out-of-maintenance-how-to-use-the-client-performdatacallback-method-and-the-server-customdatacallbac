@@ -17,7 +17,7 @@ Namespace HtmlEditorSaveHtml
 
 		End Sub
 
-		Protected Sub ASPxHtmlEditor1_CustomDataCallback(ByVal sender As Object, ByVal e As DevExpress.Web.ASPxClasses.CustomDataCallbackEventArgs)
+		Protected Sub ASPxHtmlEditor1_CustomDataCallback(ByVal sender As Object, ByVal e As DevExpress.Web.CustomDataCallbackEventArgs)
 			Select Case e.Parameter
 				Case "save"
 					SetHtml()
